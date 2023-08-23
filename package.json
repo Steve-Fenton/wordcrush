@@ -1,0 +1,23 @@
+{
+    "version": "0.0.1",
+    "author": "Steve Fenton",
+    "name": "wordcrush",
+    "description": "Reduces language size by reducing word variants. Useful for search.",
+    "keywords": [
+        "words",
+        "stemming"
+    ],
+    "type": "module",
+    "homepage": "https://github.com/Steve-Fenton/wordcrush",
+    "bugs": "https://github.com/Steve-Fenton/wordcrush/issues",
+    "license": "(Apache-2.0)",
+    "repository": {
+        "url": "https://github.com/Steve-Fenton/wordcrush"
+    },
+    "devDependencies": {
+        "jest": "^29.6.3"
+    },
+    "scripts": {
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --collectCoverage  --runInBand"
+    }
+}
